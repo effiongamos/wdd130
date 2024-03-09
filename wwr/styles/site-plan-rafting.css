@@ -8,7 +8,7 @@ body {
 :root {
     --primary-color:#00A4E4;
     --secondary-color: #228B22;
-    --accent1-color: #FFD166;
+    --accent1-color: #e5e914;
     --accent2-color: #FF5733;
 
     --heading-font: 'EB Garamond', serif;
@@ -16,7 +16,7 @@ body {
 
     --nav-background-color: #FFFFFF;
     --nav-link-color: #228B22;
-    --nav-hover-link-color: #FF5733;
+    --nav-hover-link-color: #ff5737;
     --nav-hover-background-color: rgba(236, 242, 65, 0.8);
 }
 
