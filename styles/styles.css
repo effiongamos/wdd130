@@ -27,11 +27,12 @@ nav {
 }
 nav a {
     color: white;
-    display: block;
+    display: inline;
     padding: 10px;
 }
 h1{
-    color: green;  
+    color: green;
+
 }
 
 img {
@@ -68,4 +69,17 @@ aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
+}
+nav {
+  float: center;
+  padding: 20px;
+
+}
+nav a {
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: yellow;
 }
