@@ -18,3 +18,6 @@ article img {
     width: 200px;
     height: auto;
 }
+.sociallinks {
+    text-decoration: none;
+}
