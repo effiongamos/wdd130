@@ -32,7 +32,7 @@ section img {
 }
  .hero h1 {
     position: absolute;
-    top: 120px;
+    top: 150px;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -53,6 +53,7 @@ section img {
     position: absolute;
     width: 200px;
     right: 50px;
+    float: right;
 }
 .hero article p {
     font-size: larger;
