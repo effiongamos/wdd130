@@ -19,6 +19,9 @@ section img {
 .sociallinks {
     text-decoration: none;
 }
+.sociallinks a img {
+    width: 20px;
+}
 .hero {
     position: relative;
 }
@@ -43,7 +46,7 @@ section img {
     right: 50px;
     left: 50px;
     background-color: rgba(17, 122, 202, 0.7); /* background color with opacity */
-    padding: 100px;
+    padding: 50px;
     color: var(--text-color);                                     
 }
 .hero article img {
@@ -53,5 +56,5 @@ section img {
 }
 .hero article p {
     font-size: larger;
-     
+    float: right; 
 }
