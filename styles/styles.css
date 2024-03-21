@@ -32,7 +32,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-header, footer {
+header, footer .grid { 
     max-width: 840px;
     margin: auto;
 }
