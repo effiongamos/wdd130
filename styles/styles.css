@@ -24,7 +24,7 @@ main img {
   
 }
 p { padding: 20px;
-    
+    padding-top: 5px;
 }
 
 footer {
@@ -55,6 +55,7 @@ h1{
     color: green;
     margin: 20px;
     border-bottom: 1px solid;
+    padding-bottom: 20px;
 }
 
 img {
@@ -62,7 +63,7 @@ img {
     height: auto;
     border: 1px solid rgb(14, 145, 10);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(87, 87, 87);
 }
 
 
