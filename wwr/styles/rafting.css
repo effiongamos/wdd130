@@ -25,10 +25,9 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 10 px;
 }
 nav a:hover {
-    color: #c2f279;
+    color: #39a8f6;
 }
 header img {
     width: 200px;
@@ -48,8 +47,17 @@ h1,h2,h3,h4,h5,h6 {
 p {
     font-family: 'Ubuntu', sans-serif;
 }
+.grid {
+    border: 1px solid #d9a029;
+    max-width: 1000px;
+    
+}
+section h2 {
+    text-align: center;
+}
 section img {
-    width: 900px;
+    max-width: 200px;
+    height: auto;
 }
 
 .sociallinks {
@@ -99,4 +107,13 @@ main {
 .hero article p {
     font-size: larger;
     float: right; 
+}
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #d9a029;
+}
+footer nav {
+    display: flex;
+    justify-content: flex-end;
 }
