@@ -111,8 +111,88 @@ footer {
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid #d9a029;
+    text-align: center;
 }
 footer nav {
     display: flex;
     justify-content: flex-end;
+}
+/* contact us pages - css */
+.container {
+    display: flex;
+  }
+  
+.company-info {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+.bold {
+ font-style: italic;
+ font-weight: bold;
+ color: var(--primary-color);
+}
+.map {
+    margin-left: auto;
+    margin-top: 0;
+}
+.employees-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+h2 { text-align: center;
+     padding: 15px;;
+}
+div img {
+    width: 200px
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    font-family: 'Ubuntu';
+   
+}
+ fieldset {
+    padding: 1.5rem;
+ }
+ legend {
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.5em;
+ }
+label {
+    padding: 1rem;
+}
+.info input {
+    width: 190px;
+    margin: 0 auto;
+}
+.info-name {
+    margin-left: 0;
+}
+ .subscribe {
+    font-style: italic;
+}
+
+input,textarea {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    margin-left: 20px
+}
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 8px;
+}
+button:hover {
+    background-color: darkgoldenrod;
 }
