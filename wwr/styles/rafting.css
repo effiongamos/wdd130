@@ -40,13 +40,10 @@ header h1 {
     text-align: center;
     padding-right: 90px;
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'playfair Display', serif;
-    color: var(--primary-color);
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Ubuntu';
 }
-p {
-    font-family: 'Ubuntu', sans-serif;
-}
+
 .grid {
     border: 1px solid #d9a029;
     max-width: 1000px;
@@ -167,7 +164,7 @@ form {
     font-size: 1.5em;
  }
 label {
-    padding: 1rem;
+    padding: .5rem;
 }
 .info input {
     width: 190px;
@@ -176,10 +173,9 @@ label {
 .info-name {
     margin-left: 0;
 }
- .subscribe {
+.subscribe {
     font-style: italic;
 }
-
 input,textarea {
     padding: 0.3rem;
     font-size: 0.8rem;
@@ -199,5 +195,4 @@ button:hover {
 iframe {
     width: 500px;
     height: 400px;
-    border: 0 auto ;
 }
