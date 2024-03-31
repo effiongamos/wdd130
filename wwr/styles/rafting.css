@@ -40,6 +40,8 @@ header h1 {
     text-align: center;
     padding-right: 90px;
 }
+h1 { color: var(--primary-color);}
+
 h1,h2,h3,h4,h5,h6,p {
     font-family: 'Ubuntu';
 }
