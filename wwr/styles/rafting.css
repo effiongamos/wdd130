@@ -229,7 +229,7 @@ thead tr {
 .trip-descriptions {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 10px;
 }
 
 /*Home page and trips sytling*/
@@ -261,3 +261,4 @@ thead tr {
     padding: 20px;
     justify-content: space-around;
 }
+
