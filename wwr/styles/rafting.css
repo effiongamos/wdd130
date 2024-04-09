@@ -5,6 +5,8 @@
     --secondary-color: rgb(196, 212, 20);
     --text-color: white;    
 }
+ /* sytling of Header in Home pages, contcat, about and trips */
+ /*Begining style*/
 header { 
     display: grid;
     margin: 10px auto;
@@ -40,6 +42,8 @@ header h1 {
     text-align: center;
     padding-right: 90px;
 }
+/*end Header sytling in HTML*/
+
 h1 { color: var(--primary-color);}
 
 h1,h2,h3,h4,h5,h6,p {
@@ -53,30 +57,27 @@ h1,h2,h3,h4,h5,h6,p {
 section h2 {
     text-align: center;
 }
-section img {
+.grid img {
     max-width: 200px;
     height: auto;
-}
-
-.sociallinks {
-    text-decoration: none;
-}
-.sociallinks a img {
-    width: 20px;
 }
 .hero {
     position: relative;
 }
+/*styling for hom page, about, trips and contact*/
 main {
     max-width: 1000px;
     margin: 0 auto;
 }
+/*End of main Styling*/
+
+/*about us styling*/
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
- .hero h1 {
+ .hero h1, .hero h2 {
     position: absolute;
     top: 50px;
     left: 50%;
@@ -106,6 +107,8 @@ main {
     font-size: larger;
     float: right; 
 }
+/*Styling of footer in home pages, contact, trips and about*/
+/*start of the styling*/
 footer {
     max-width: 1000px;
     margin: 0 auto;
@@ -116,6 +119,13 @@ footer nav {
     display: flex;
     justify-content: flex-end;
 }
+.sociallinks {
+    text-decoration: none;
+}
+.sociallinks a img {
+    width: 20px;
+}
+/*end of Styling*/
 /* contact us pages - css */
 .container {
     display: flex;
@@ -197,4 +207,57 @@ button:hover {
 iframe {
     width: 500px;
     height: 400px;
+}
+
+/* Trips Styling */
+table, th, td {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+tfoot th {text-align: right;}
+
+tfoot tr{
+  background-color: rgb(228 240 245);
+}
+
+thead tr {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.trip-descriptions {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+/*Home page and trips sytling*/
+/*styling call action*/
+.centered-section {
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+.centered-section p { font-style: italic;}
+.centered-section .btn {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: var(--primary-color);
+    color:var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+}
+.centered-section .btn:hover {
+    background-color: darkgoldenrod;
+}
+/* end of sytling call action*/
+/*home page styling*/
+.grid-layout {
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: space-around;
 }
