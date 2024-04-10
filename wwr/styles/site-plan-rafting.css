@@ -6,9 +6,9 @@ body {
 }
 
 :root {
-    --primary-color:#00A4E4;
+    --primary-color: black;
     --secondary-color: #228B22;
-    --accent1-color: #e5e914;
+    --accent1-color: #d9a029;
     --accent2-color: #FF5733;
 
     --heading-font: 'EB Garamond', serif;
