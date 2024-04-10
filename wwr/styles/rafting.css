@@ -29,7 +29,7 @@ nav a {
     font-size: 20px;
 }
 nav a:hover {
-    color: #39a8f6;
+    color: black;
 }
 header img {
     width: 200px;
@@ -49,16 +49,23 @@ h1 { color: var(--primary-color);}
 h1,h2,h3,h4,h5,h6,p {
     font-family: 'Ubuntu';
 }
-
-.grid {
-    border: 1px solid #d9a029;
-    max-width: 1000px;
-}
 section h2 {
     text-align: center;
 }
-.grid img {
-    max-width: 200px;
+.adventure-you {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+figure {
+    margin: 2px;
+    padding: 20px;
+}
+figcaption {
+    text-align: center;
+}
+.adventure-you img {
+    width: 170px;
     height: auto;
 }
 .hero {
@@ -98,26 +105,32 @@ main {
     color: var(--text-color);                                     
 }
 .hero article img {
-    position: absolute;
     width: 200px;
-    right: 50px;
     float: right;
+    padding: 1rem;
 }
 .hero article p {
     font-size: larger;
-    float: right; 
 }
 /*Styling of footer in home pages, contact, trips and about*/
 /*start of the styling*/
+
 footer {
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid #d9a029;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 footer nav {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+footer nav a {
+    margin-right: 10px;
 }
 .sociallinks {
     text-decoration: none;
@@ -220,6 +233,7 @@ table, th, td {
     border: 2px solid gray;
     border-collapse: collapse;
     padding: 20px;
+    font-family: 'Ubuntu';
 }
 
 tfoot th {text-align: right;}
@@ -230,7 +244,6 @@ tfoot tr{
 
 thead tr {
     background-color: var(--primary-color);
-    color: var(--text-color);
 }
 .trip-descriptions {
     display: flex;
@@ -252,12 +265,13 @@ thead tr {
     background-color: var(--primary-color);
     color:var(--text-color);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 20px;
     font-family: 'Ubuntu';
 }
 .centered-section .btn:hover {
     background-color: darkgoldenrod;
+    color: black;
 }
 /* end of sytling call action*/
 /*home page styling*/
